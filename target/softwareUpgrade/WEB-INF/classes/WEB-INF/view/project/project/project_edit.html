@@ -1,0 +1,47 @@
+@layout("/common/_container.html"){
+<div class="ibox float-e-margins" id="insertSubAccountForm">
+    <div class="ibox-content">
+        <div class="form-horizontal">
+            <input id="projectId" type="hidden" value="">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">* 项目代号：</label>
+                        <div class="col-sm-9">
+                            <input class="form-control" type="text" id="code" name="code" placeholder="支持大小写字母、数字，20个字符之内，建议和禅道保持一致" disabled="disabled">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12" style="margin-top: 20px;">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">* 项目名称：</label>
+                        <div class="col-sm-9">
+                            <input class="form-control" type="text" id="name" name="name" placeholder="50个字符之内">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12" style="margin-top: 20px;">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">项目简介：</label>
+                        <div class="col-sm-9">
+                            <textarea class="form-control" id="intro" name="intro" type="text" style="resize: none;height: 80px;" placeholder="120个字符之内"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row btn-group-m-t">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-9">
+                    <button type="button" class="btn btn-danger-xb" onclick="ProjectInfoDlg.close();" style="width: 120px;height: 34px;color: #FFFFFF;margin-right: 20px;">
+                        取消
+                    </button>
+                    <button type="button" class="btn btn-primary" onclick="ProjectInfoDlg.addSubmit();" style="width: 120px;height: 34px;color: #FFFFFF;">
+                        提交
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="${ctxPath}/static/modular/project/project/project_info.js"></script>
+@}

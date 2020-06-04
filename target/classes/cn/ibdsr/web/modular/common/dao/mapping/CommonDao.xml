@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.ibdsr.web.modular.common.dao.CommonDao">
+
+    <!--
+    注意：表名作为参数，需要将statementType改为STATEMENT，表示无需预编译，此时SQL中的参数需要用${}，而不是#{}，
+    传入的字符串参数还需要额外加上单引号''。
+    由于使用的是${}，可能存在SQL注入的风险，因此传入dao层的参数，必须由service层的代码控制，不允许将controller层中
+    用户传入的参数，不作处理，直接传递给dao层。
+    -->
+
+    <select id="previous" resultType="com.alibaba.fastjson.JSONObject" statementType="STATEMENT">
+        SELECT
+        id,
+        sequence
+        FROM ${tableName}
+        WHERE sequence &lt; ${sequence}
+        AND is_deleted = 0
+        ORDER BY sequence DESC
+        LIMIT 0,1
+    </select>
+
+    <select id="next" resultType="com.alibaba.fastjson.JSONObject" statementType="STATEMENT">
+        SELECT
+        id,
+        sequence
+        FROM ${tableName}
+        WHERE sequence > ${sequence}
+        AND is_deleted = 0
+        ORDER BY sequence ASC
+        LIMIT 0,1
+    </select>
+
+    <select id="selectById" resultType="com.alibaba.fastjson.JSONObject" statementType="STATEMENT">
+        SELECT
+        id,
+        sequence
+        FROM ${tableName}
+        WHERE id = ${id}
+        AND is_deleted = 0
+    </select>
+
+    <select id="updateById" parameterType="com.alibaba.fastjson.JSONObject" statementType="STATEMENT">
+        update ${tableName}
+        set sequence = ${sequence}, modified_time = ${modified_time}, modified_user = ${modified_user}
+        where id = ${id}
+    </select>
+
+</mapper>

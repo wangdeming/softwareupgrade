@@ -1,0 +1,781 @@
+2019-09-05 08:32:08,633 [INFO] [main] cn.ibdsr.web.WebApplication [StartupInfoLogger.java : 48] Starting WebApplication on xindeiMac.local with PID 56917 (/Users/macroot/Desktop/softwareupgrade/target/classes started by macroot in /Users/macroot/Desktop/softwareupgrade)
+2019-09-05 08:32:08,657 [DEBUG] [main] cn.ibdsr.web.WebApplication [StartupInfoLogger.java : 51] Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2019-09-05 08:32:08,657 [INFO] [main] cn.ibdsr.web.WebApplication [SpringApplication.java : 641] The following profiles are active: test
+2019-09-05 08:32:08,976 [INFO] [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java : 582] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3f41a1f3: startup date [Thu Sep 05 08:32:08 CST 2019]; root of context hierarchy
+2019-09-05 08:32:12,989 [INFO] [main] o.s.data.repository.config.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java : 165] Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-05 08:32:14,342 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 325] Bean 'shiroConfig' of type [cn.ibdsr.web.config.web.ShiroConfig$$EnhancerBySpringCGLIB$$ec0a9fed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-05 08:32:14,547 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 325] Bean 'webConfig' of type [cn.ibdsr.web.config.web.WebConfig$$EnhancerBySpringCGLIB$$7767ef30] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-05 08:32:14,589 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 325] Bean 'rememberMeCookie' of type [org.apache.shiro.web.servlet.SimpleCookie] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-05 08:32:14,641 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 325] Bean 'rememberMeManager' of type [org.apache.shiro.web.mgt.CookieRememberMeManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-05 08:32:14,650 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 325] Bean 'ehCacheConfig' of type [cn.ibdsr.web.config.EhCacheConfig$$EnhancerBySpringCGLIB$$e892ddf5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-05 08:32:14,666 [INFO] [main] org.springframework.cache.ehcache.EhCacheManagerFactoryBean [EhCacheManagerFactoryBean.java : 130] Initializing EhCache CacheManager
+2019-09-05 08:32:15,226 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 325] Bean 'ehcache' of type [org.springframework.cache.ehcache.EhCacheManagerFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-05 08:32:15,234 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 325] Bean 'getCacheShiroManager' of type [org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-05 08:32:15,723 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 325] Bean 'webProperties' of type [cn.ibdsr.web.config.properties.WebProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-05 08:32:15,764 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 325] Bean 'defaultWebSessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-05 08:32:15,817 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 325] Bean 'shiroDbRealm' of type [cn.ibdsr.web.core.shiro.ShiroDbRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-05 08:32:15,819 [INFO] [main] org.apache.shiro.cache.ehcache.EhCacheManager [EhCacheManager.java : 158] Cache with name 'cn.ibdsr.web.core.shiro.ShiroDbRealm.authorizationCache' does not yet exist.  Creating now.
+2019-09-05 08:32:15,844 [INFO] [main] org.apache.shiro.cache.ehcache.EhCacheManager [EhCacheManager.java : 165] Added EhCache named [cn.ibdsr.web.core.shiro.ShiroDbRealm.authorizationCache]
+2019-09-05 08:32:15,879 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 325] Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-05 08:32:15,889 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 325] Bean 'methodInvokingFactoryBean' of type [org.springframework.beans.factory.config.MethodInvokingFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-05 08:32:15,997 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 325] Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-05 08:32:16,007 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 325] Bean 'druidStatPointcut' of type [org.springframework.aop.support.JdkRegexpMethodPointcut] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-05 08:32:16,094 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 325] Bean 'druidStatInterceptor' of type [com.alibaba.druid.support.spring.stat.DruidStatInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-05 08:32:16,099 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 325] Bean 'druidStatAdvisor' of type [org.springframework.aop.support.DefaultPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-05 08:32:16,279 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 325] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4805b3a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-05 08:32:16,863 [INFO] [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java : 325] Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$4d929158] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-05 08:32:18,061 [INFO] [main] o.s.b.context.embedded.tomcat.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java : 89] Tomcat initialized with port(s): 80 (http)
+2019-09-05 08:32:18,109 [INFO] [main] org.apache.catalina.core.StandardService [DirectJDKLog.java : 179] Starting service Tomcat
+2019-09-05 08:32:18,112 [INFO] [main] org.apache.catalina.core.StandardEngine [DirectJDKLog.java : 179] Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-09-05 08:32:18,492 [INFO] [localhost-startStop-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 179] Initializing Spring embedded WebApplicationContext
+2019-09-05 08:32:18,493 [INFO] [localhost-startStop-1] org.springframework.web.context.ContextLoader [EmbeddedWebApplicationContext.java : 276] Root WebApplicationContext: initialization completed in 9516 ms
+2019-09-05 08:32:19,207 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean [ServletRegistrationBean.java : 190] Mapping servlet: 'statViewServlet' to [/druid/*]
+2019-09-05 08:32:19,210 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean [ServletRegistrationBean.java : 190] Mapping servlet: 'dispatcherServlet' to [/]
+2019-09-05 08:32:19,217 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-09-05 08:32:19,235 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-09-05 08:32:19,236 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-09-05 08:32:19,236 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'requestContextFilter' to: [/*]
+2019-09-05 08:32:19,236 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 271] Mapping filter: 'webStatFilter' to urls: [/*]
+2019-09-05 08:32:19,237 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 271] Mapping filter: 'xssFilter' to urls: [/*]
+2019-09-05 08:32:19,237 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'corsFilter' to: [/*]
+2019-09-05 08:32:19,237 [INFO] [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [AbstractFilterRegistrationBean.java : 258] Mapping filter: 'shiroFilter' to: [/*]
+2019-09-05 08:32:19,336 [DEBUG] [localhost-startStop-1] cn.ibdsr.web.core.filter.CorsFilter [GenericFilterBean.java : 177] Initializing filter 'corsFilter'
+2019-09-05 08:32:19,336 [DEBUG] [localhost-startStop-1] cn.ibdsr.web.core.filter.CorsFilter [GenericFilterBean.java : 202] Filter 'corsFilter' configured successfully
+2019-09-05 08:32:22,466 [INFO] [main] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 785] {dataSource-1} inited
+2019-09-05 08:32:27,030 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/api/versionUpgrade/upgrade]}" onto public java.lang.Object cn.ibdsr.web.modular.api.versionupgrade.controller.VersionUpgradeController.upgrade(java.lang.String,java.lang.String)
+2019-09-05 08:32:27,037 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/project]}" onto public java.lang.String cn.ibdsr.web.modular.project.controller.ProjectController.index()
+2019-09-05 08:32:27,038 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/project/add]}" onto public java.lang.Object cn.ibdsr.web.modular.project.controller.ProjectController.add(cn.ibdsr.web.modular.project.transfer.ProjectDTO)
+2019-09-05 08:32:27,038 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/project/update]}" onto public java.lang.Object cn.ibdsr.web.modular.project.controller.ProjectController.update(cn.ibdsr.web.modular.project.transfer.ProjectDTO)
+2019-09-05 08:32:27,039 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/project/delete]}" onto public java.lang.Object cn.ibdsr.web.modular.project.controller.ProjectController.delete(java.lang.Long)
+2019-09-05 08:32:27,040 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/project/list]}" onto public java.lang.Object cn.ibdsr.web.modular.project.controller.ProjectController.list(java.lang.String)
+2019-09-05 08:32:27,040 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/project/project_update]}" onto public java.lang.String cn.ibdsr.web.modular.project.controller.ProjectController.projectUpdate()
+2019-09-05 08:32:27,041 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/project/movePre]}" onto public java.lang.Object cn.ibdsr.web.modular.project.controller.ProjectController.movePre(java.lang.Long)
+2019-09-05 08:32:27,041 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/project/moveNext]}" onto public java.lang.Object cn.ibdsr.web.modular.project.controller.ProjectController.moveNext(java.lang.Long)
+2019-09-05 08:32:27,042 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/project/project_add]}" onto public java.lang.String cn.ibdsr.web.modular.project.controller.ProjectController.projectAdd()
+2019-09-05 08:32:27,046 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/software]}" onto public java.lang.String cn.ibdsr.web.modular.software.controller.SoftwareController.index()
+2019-09-05 08:32:27,047 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/software/add]}" onto public java.lang.Object cn.ibdsr.web.modular.software.controller.SoftwareController.add(cn.ibdsr.web.modular.software.transfer.SoftwareDTO)
+2019-09-05 08:32:27,047 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/software/update]}" onto public java.lang.Object cn.ibdsr.web.modular.software.controller.SoftwareController.update(cn.ibdsr.web.modular.software.transfer.SoftwareDTO)
+2019-09-05 08:32:27,048 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/software/delete]}" onto public java.lang.Object cn.ibdsr.web.modular.software.controller.SoftwareController.delete(java.lang.Long)
+2019-09-05 08:32:27,048 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/software/list]}" onto public java.lang.Object cn.ibdsr.web.modular.software.controller.SoftwareController.list(java.lang.Long)
+2019-09-05 08:32:27,049 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/software/movePre]}" onto public java.lang.Object cn.ibdsr.web.modular.software.controller.SoftwareController.movePre(java.lang.Long)
+2019-09-05 08:32:27,049 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/software/moveNext]}" onto public java.lang.Object cn.ibdsr.web.modular.software.controller.SoftwareController.moveNext(java.lang.Long)
+2019-09-05 08:32:27,050 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/software/software_add]}" onto public java.lang.String cn.ibdsr.web.modular.software.controller.SoftwareController.softwareAdd()
+2019-09-05 08:32:27,050 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/software/software_update]}" onto public java.lang.String cn.ibdsr.web.modular.software.controller.SoftwareController.softwareUpdate()
+2019-09-05 08:32:27,051 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/software/getProjectName]}" onto public java.lang.Object cn.ibdsr.web.modular.software.controller.SoftwareController.getProjectName()
+2019-09-05 08:32:27,052 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/blackboard]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.BlackboardController.blackboard(org.springframework.ui.Model)
+2019-09-05 08:32:27,053 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/code]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.CodeController.index()
+2019-09-05 08:32:27,056 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/code/generate],methods=[POST]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.CodeController.add(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-09-05 08:32:27,058 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/dept]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.DeptController.index()
+2019-09-05 08:32:27,059 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/dept/add]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.DeptController.add(cn.ibdsr.web.common.persistence.model.Dept)
+2019-09-05 08:32:27,059 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/dept/update]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.DeptController.update(cn.ibdsr.web.common.persistence.model.Dept)
+2019-09-05 08:32:27,060 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/dept/delete]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.DeptController.delete(java.lang.Long)
+2019-09-05 08:32:27,060 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/dept/list]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.DeptController.list(java.lang.String)
+2019-09-05 08:32:27,061 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/dept/tree]}" onto public java.util.List<cn.ibdsr.core.node.ZTreeNode> cn.ibdsr.web.modular.system.controller.DeptController.tree()
+2019-09-05 08:32:27,061 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/dept/dept_add]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.DeptController.deptAdd()
+2019-09-05 08:32:27,064 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/dept/dept_update/{deptId}]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.DeptController.deptUpdate(java.lang.Long,org.springframework.ui.Model)
+2019-09-05 08:32:27,065 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/dept/detail/{deptId}]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.DeptController.detail(java.lang.Long)
+2019-09-05 08:32:27,066 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/dict]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.DictController.index()
+2019-09-05 08:32:27,067 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/dict/add]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.DictController.add(java.lang.String,java.lang.String)
+2019-09-05 08:32:27,068 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/dict/update]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.DictController.update(java.lang.Long,java.lang.String,java.lang.String)
+2019-09-05 08:32:27,069 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/dict/delete]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.DictController.delete(java.lang.Long)
+2019-09-05 08:32:27,070 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/dict/list]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.DictController.list(java.lang.String)
+2019-09-05 08:32:27,070 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/dict/dict_add]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.DictController.deptAdd()
+2019-09-05 08:32:27,071 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/dict/dict_edit/{dictId}]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.DictController.deptUpdate(java.lang.Long,org.springframework.ui.Model)
+2019-09-05 08:32:27,072 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/dict/detail/{dictId}]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.DictController.detail(java.lang.Long)
+2019-09-05 08:32:27,072 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/kaptcha]}" onto public void cn.ibdsr.web.modular.system.controller.KaptchaController.index(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-09-05 08:32:27,073 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/kaptcha/{pictureId}]}" onto public void cn.ibdsr.web.modular.system.controller.KaptchaController.renderPicture(java.lang.String,javax.servlet.http.HttpServletResponse)
+2019-09-05 08:32:27,074 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/log]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.LogController.index()
+2019-09-05 08:32:27,075 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/log/list]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.LogController.list(java.lang.String,java.lang.String,java.lang.String,java.lang.Integer)
+2019-09-05 08:32:27,076 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/log/detail/{id}]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.LogController.detail(java.lang.Long)
+2019-09-05 08:32:27,076 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/log/delLog]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.LogController.delLog()
+2019-09-05 08:32:27,077 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/],methods=[GET]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.LoginController.index(org.springframework.ui.Model)
+2019-09-05 08:32:27,078 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/logout],methods=[GET]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.LoginController.logOut()
+2019-09-05 08:32:27,078 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/login],methods=[GET]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.LoginController.login()
+2019-09-05 08:32:27,079 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/login],methods=[POST]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.LoginController.loginVali()
+2019-09-05 08:32:27,080 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/loginLog]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.LoginLogController.index()
+2019-09-05 08:32:27,080 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/loginLog/list]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.LoginLogController.list(java.lang.String,java.lang.String,java.lang.String)
+2019-09-05 08:32:27,081 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/loginLog/delLoginLog]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.LoginLogController.delLog()
+2019-09-05 08:32:27,083 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/menu]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.MenuController.index()
+2019-09-05 08:32:27,085 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/menu/add]}" onto public cn.ibdsr.core.base.tips.Tip cn.ibdsr.web.modular.system.controller.MenuController.add(cn.ibdsr.web.common.persistence.model.Menu,org.springframework.validation.BindingResult)
+2019-09-05 08:32:27,086 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/menu/remove]}" onto public cn.ibdsr.core.base.tips.Tip cn.ibdsr.web.modular.system.controller.MenuController.remove(java.lang.Long)
+2019-09-05 08:32:27,086 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/menu/list]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.MenuController.list(java.lang.String,java.lang.String)
+2019-09-05 08:32:27,087 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/menu/edit]}" onto public cn.ibdsr.core.base.tips.Tip cn.ibdsr.web.modular.system.controller.MenuController.edit(cn.ibdsr.web.common.persistence.model.Menu,org.springframework.validation.BindingResult)
+2019-09-05 08:32:27,087 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/menu/view/{menuId}]}" onto public cn.ibdsr.core.base.tips.Tip cn.ibdsr.web.modular.system.controller.MenuController.view(java.lang.Long)
+2019-09-05 08:32:27,088 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/menu/menu_add]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.MenuController.menuAdd()
+2019-09-05 08:32:27,089 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/menu/menu_edit/{menuId}]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.MenuController.menuEdit(java.lang.Long,org.springframework.ui.Model)
+2019-09-05 08:32:27,089 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/menu/menuTreeList]}" onto public java.util.List<cn.ibdsr.core.node.ZTreeNode> cn.ibdsr.web.modular.system.controller.MenuController.menuTreeList()
+2019-09-05 08:32:27,090 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/menu/selectMenuTreeList]}" onto public java.util.List<cn.ibdsr.core.node.ZTreeNode> cn.ibdsr.web.modular.system.controller.MenuController.selectMenuTreeList()
+2019-09-05 08:32:27,090 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/menu/menuTreeListByRoleId/{roleId}]}" onto public java.util.List<cn.ibdsr.core.node.ZTreeNode> cn.ibdsr.web.modular.system.controller.MenuController.menuTreeListByRoleId(java.lang.Long)
+2019-09-05 08:32:27,092 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/notice]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.NoticeController.index()
+2019-09-05 08:32:27,093 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/notice/add]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.NoticeController.add(cn.ibdsr.web.common.persistence.model.Notice)
+2019-09-05 08:32:27,093 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/notice/update]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.NoticeController.update(cn.ibdsr.web.common.persistence.model.Notice)
+2019-09-05 08:32:27,094 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/notice/delete]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.NoticeController.delete(java.lang.Long)
+2019-09-05 08:32:27,094 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/notice/list]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.NoticeController.list(java.lang.String)
+2019-09-05 08:32:27,095 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/notice/hello]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.NoticeController.hello()
+2019-09-05 08:32:27,095 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/notice/notice_add]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.NoticeController.noticeAdd()
+2019-09-05 08:32:27,096 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/notice/notice_update/{noticeId}]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.NoticeController.noticeUpdate(java.lang.Long,org.springframework.ui.Model)
+2019-09-05 08:32:27,098 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/role]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.RoleController.index()
+2019-09-05 08:32:27,099 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/role/add]}" onto public cn.ibdsr.core.base.tips.Tip cn.ibdsr.web.modular.system.controller.RoleController.add(cn.ibdsr.web.common.persistence.model.Role,org.springframework.validation.BindingResult)
+2019-09-05 08:32:27,099 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/role/remove]}" onto public cn.ibdsr.core.base.tips.Tip cn.ibdsr.web.modular.system.controller.RoleController.remove(java.lang.Long)
+2019-09-05 08:32:27,100 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/role/list]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.RoleController.list(java.lang.String)
+2019-09-05 08:32:27,100 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/role/edit]}" onto public cn.ibdsr.core.base.tips.Tip cn.ibdsr.web.modular.system.controller.RoleController.edit(cn.ibdsr.web.common.persistence.model.Role,org.springframework.validation.BindingResult)
+2019-09-05 08:32:27,101 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/role/view/{roleId}]}" onto public cn.ibdsr.core.base.tips.Tip cn.ibdsr.web.modular.system.controller.RoleController.view(java.lang.Long)
+2019-09-05 08:32:27,101 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/role/roleTreeList]}" onto public java.util.List<cn.ibdsr.core.node.ZTreeNode> cn.ibdsr.web.modular.system.controller.RoleController.roleTreeList()
+2019-09-05 08:32:27,102 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/role/roleTreeListByUserId/{userId}]}" onto public java.util.List<cn.ibdsr.core.node.ZTreeNode> cn.ibdsr.web.modular.system.controller.RoleController.roleTreeListByUserId(java.lang.Long)
+2019-09-05 08:32:27,102 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/role/role_edit/{roleId}]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.RoleController.roleEdit(java.lang.Long,org.springframework.ui.Model)
+2019-09-05 08:32:27,102 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/role/role_add]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.RoleController.roleAdd()
+2019-09-05 08:32:27,103 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/role/role_assign/{roleId}]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.RoleController.roleAssign(java.lang.Long,org.springframework.ui.Model)
+2019-09-05 08:32:27,103 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/role/setAuthority]}" onto public cn.ibdsr.core.base.tips.Tip cn.ibdsr.web.modular.system.controller.RoleController.setAuthority(java.lang.Long,java.lang.String)
+2019-09-05 08:32:27,106 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/mgr]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.UserMgrController.index()
+2019-09-05 08:32:27,107 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/mgr/add]}" onto public cn.ibdsr.core.base.tips.Tip cn.ibdsr.web.modular.system.controller.UserMgrController.add(cn.ibdsr.web.modular.system.transfer.UserDto,org.springframework.validation.BindingResult)
+2019-09-05 08:32:27,107 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/mgr/delete]}" onto public cn.ibdsr.core.base.tips.Tip cn.ibdsr.web.modular.system.controller.UserMgrController.delete(java.lang.Long)
+2019-09-05 08:32:27,108 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/mgr/list]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.UserMgrController.list(java.lang.String,java.lang.String,java.lang.String,java.lang.Long)
+2019-09-05 08:32:27,108 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/mgr/reset]}" onto public cn.ibdsr.core.base.tips.Tip cn.ibdsr.web.modular.system.controller.UserMgrController.reset(java.lang.Long)
+2019-09-05 08:32:27,109 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/mgr/user_info]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.UserMgrController.userInfo(org.springframework.ui.Model)
+2019-09-05 08:32:27,109 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/mgr/freeze]}" onto public cn.ibdsr.core.base.tips.Tip cn.ibdsr.web.modular.system.controller.UserMgrController.freeze(java.lang.Long)
+2019-09-05 08:32:27,110 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/mgr/edit]}" onto public cn.ibdsr.core.base.tips.Tip cn.ibdsr.web.modular.system.controller.UserMgrController.edit(cn.ibdsr.web.modular.system.transfer.UserDto,org.springframework.validation.BindingResult) throws javax.naming.NoPermissionException
+2019-09-05 08:32:27,110 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/mgr/setRole]}" onto public cn.ibdsr.core.base.tips.Tip cn.ibdsr.web.modular.system.controller.UserMgrController.setRole(java.lang.Long,java.lang.String)
+2019-09-05 08:32:27,111 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/mgr/view/{userId}]}" onto public cn.ibdsr.web.common.persistence.model.User cn.ibdsr.web.modular.system.controller.UserMgrController.view(java.lang.Long)
+2019-09-05 08:32:27,112 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/mgr/user_edit/{userId}]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.UserMgrController.userEdit(java.lang.Long,org.springframework.ui.Model)
+2019-09-05 08:32:27,113 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/mgr/user_add]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.UserMgrController.addView()
+2019-09-05 08:32:27,113 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/mgr/user_chpwd]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.UserMgrController.chPwd(org.springframework.ui.Model)
+2019-09-05 08:32:27,115 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/mgr/changePwd]}" onto public java.lang.Object cn.ibdsr.web.modular.system.controller.UserMgrController.changePwd(java.lang.String,java.lang.String,java.lang.String)
+2019-09-05 08:32:27,116 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/mgr/unfreeze]}" onto public cn.ibdsr.core.base.tips.Tip cn.ibdsr.web.modular.system.controller.UserMgrController.unfreeze(java.lang.Long)
+2019-09-05 08:32:27,119 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/mgr/upload],methods=[POST]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.UserMgrController.upload(org.springframework.web.multipart.MultipartFile)
+2019-09-05 08:32:27,119 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/mgr/role_assign/{userId}]}" onto public java.lang.String cn.ibdsr.web.modular.system.controller.UserMgrController.roleAssign(java.lang.Long,org.springframework.ui.Model)
+2019-09-05 08:32:27,123 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/versionRecord]}" onto public java.lang.String cn.ibdsr.web.modular.versionrecord.controller.VersionRecordController.index()
+2019-09-05 08:32:27,124 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/versionRecord/add],methods=[POST]}" onto public java.lang.Object cn.ibdsr.web.modular.versionrecord.controller.VersionRecordController.add(cn.ibdsr.web.modular.versionrecord.transfer.VersionRecordDTO)
+2019-09-05 08:32:27,124 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/versionRecord/list]}" onto public java.lang.Object cn.ibdsr.web.modular.versionrecord.controller.VersionRecordController.list(java.lang.Long)
+2019-09-05 08:32:27,125 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/versionRecord/toUploadPackage/{softwareId}]}" onto public java.lang.String cn.ibdsr.web.modular.versionrecord.controller.VersionRecordController.toUploadPackage(java.lang.Long,org.springframework.ui.Model)
+2019-09-05 08:32:27,125 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/versionRecord/download]}" onto public void cn.ibdsr.web.modular.versionrecord.controller.VersionRecordController.download(java.lang.Long,javax.servlet.http.HttpServletResponse)
+2019-09-05 08:32:27,126 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/versionRecord/analyse]}" onto public java.lang.Object cn.ibdsr.web.modular.versionrecord.controller.VersionRecordController.analyse(org.springframework.web.multipart.MultipartFile,java.lang.Long)
+2019-09-05 08:32:27,126 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/global/sessionError]}" onto public java.lang.String cn.ibdsr.core.base.controller.GlobalController.errorPageInfo(org.springframework.ui.Model)
+2019-09-05 08:32:27,127 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/global/error]}" onto public java.lang.String cn.ibdsr.core.base.controller.GlobalController.errorPage()
+2019-09-05 08:32:27,128 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2019-09-05 08:32:27,132 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-09-05 08:32:27,132 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-09-05 08:32:27,133 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-09-05 08:32:27,135 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-09-05 08:32:27,136 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java : 543] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-09-05 08:32:29,268 [INFO] [main] o.s.w.s.mvc.method.annotation.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java : 534] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3f41a1f3: startup date [Thu Sep 05 08:32:08 CST 2019]; root of context hierarchy
+2019-09-05 08:32:29,583 [INFO] [main] o.s.web.servlet.handler.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/swagger-ui.html] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-05 08:32:29,583 [INFO] [main] o.s.web.servlet.handler.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-05 08:32:29,583 [INFO] [main] o.s.web.servlet.handler.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-05 08:32:29,635 [INFO] [main] o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver [ExceptionHandlerExceptionResolver.java : 273] Detected @ExceptionHandler methods in globalExceptionHandler
+2019-09-05 08:32:29,719 [INFO] [main] o.s.web.servlet.handler.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java : 362] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-05 08:32:31,849 [INFO] [main] o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer [OptionalLiveReloadServer.java : 58] LiveReload server is running on port 35729
+2019-09-05 08:32:32,032 [INFO] [main] o.s.jmx.export.annotation.AnnotationMBeanExporter [MBeanExporter.java : 431] Registering beans for JMX exposure on startup
+2019-09-05 08:32:32,055 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 80] Context refreshed
+2019-09-05 08:32:32,166 [INFO] [main] s.d.spring.web.plugins.DocumentationPluginsBootstrapper [DocumentationPluginsBootstrapper.java : 83] Found {0} custom documentation plugin(s)
+2019-09-05 08:32:32,184 [INFO] [main] s.d.spring.web.scanners.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 53] Scanning for api listing references
+2019-09-05 08:32:32,215 [INFO] [main] s.d.swagger.web.ClassOrApiAnnotationResourceGrouping [ClassOrApiAnnotationResourceGrouping.java : 100] Group for method add was code-controller
+2019-09-05 08:32:32,226 [INFO] [main] s.d.spring.web.scanners.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 72] Request mapping: add belongs to groups: [[ResourceGroup{groupName='code-controller', position=0, controller=cn.ibdsr.web.modular.system.controller.CodeController}]] 
+2019-09-05 08:32:32,238 [INFO] [main] s.d.spring.web.scanners.ApiListingReferenceScanner [ApiListingReferenceScanner.java : 84] Created resource listing Path: /default/code-controller Description: code-controller Position: 0
+2019-09-05 08:32:32,323 [INFO] [main] springfox.documentation.schema.ModelContextKeyGenerator [ModelContextKeyGenerator.java : 46] Cache Key Generated: java.lang.Object(true)
+2019-09-05 08:32:32,324 [INFO] [main] springfox.documentation.spring.web.caching.CachingAspect [CachingAspect.java : 79] Caching aspect applied for cache models with key java.lang.Object(true)
+2019-09-05 08:32:32,341 [INFO] [main] springfox.documentation.schema.ModelContextKeyGenerator [ModelContextKeyGenerator.java : 46] Cache Key Generated: java.lang.Object(true)
+2019-09-05 08:32:32,341 [INFO] [main] springfox.documentation.spring.web.caching.CachingAspect [CachingAspect.java : 79] Caching aspect applied for cache modelDependencies with key java.lang.Object(true)
+2019-09-05 08:32:32,354 [INFO] [main] springfox.documentation.spring.web.OperationsKeyGenerator [OperationsKeyGenerator.java : 51] Cache key generated: /code/generate.cn.ibdsr.web.modular.system.controller.CodeController.add.DefaultGenericTypeNamingStrategy
+2019-09-05 08:32:32,354 [INFO] [main] springfox.documentation.spring.web.caching.CachingAspect [CachingAspect.java : 68] Caching aspect applied for cache operations with key /code/generate.cn.ibdsr.web.modular.system.controller.CodeController.add.DefaultGenericTypeNamingStrategy
+2019-09-05 08:32:32,391 [INFO] [main] s.d.swagger.web.ClassOrApiAnnotationResourceGrouping [ClassOrApiAnnotationResourceGrouping.java : 100] Group for method add was code-controller
+2019-09-05 08:32:32,424 [INFO] [main] s.d.swagger.web.ClassOrApiAnnotationResourceGrouping [ClassOrApiAnnotationResourceGrouping.java : 100] Group for method add was code-controller
+2019-09-05 08:32:32,706 [INFO] [main] o.s.b.context.embedded.tomcat.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java : 198] Tomcat started on port(s): 80 (http)
+2019-09-05 08:32:32,733 [INFO] [main] cn.ibdsr.web.WebApplication [StartupInfoLogger.java : 57] Started WebApplication in 27.524 seconds (JVM running for 34.327)
+2019-09-05 08:32:32,733 [INFO] [main] cn.ibdsr.web.WebApplication [WebApplication.java : 40] WebApplication is success!
+2019-09-05 08:33:00,394 [INFO] [http-nio-80-exec-1] o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [DirectJDKLog.java : 179] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-05 08:33:00,396 [INFO] [http-nio-80-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 489] FrameworkServlet 'dispatcherServlet': initialization started
+2019-09-05 08:33:00,493 [INFO] [http-nio-80-exec-1] org.springframework.web.servlet.DispatcherServlet [FrameworkServlet.java : 508] FrameworkServlet 'dispatcherServlet': initialization completed in 97 ms
+2019-09-05 08:33:00,662 [INFO] [http-nio-80-exec-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 233] Enabling session validation scheduler...
+2019-09-05 08:33:08,332 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.modular.system.dao.UserMgrDao.getByAccount [BaseJdbcLogger.java : 159] ==>  Preparing: select id, account, name, birthday,password, sex, email, avatar, phone, roleid,salt, deptid, status, createtime, version from user where account = ? and status != 3 
+2019-09-05 08:33:08,935 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.modular.system.dao.UserMgrDao.getByAccount [BaseJdbcLogger.java : 159] ==> Parameters: admin(String)
+2019-09-05 08:33:09,008 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.modular.system.dao.UserMgrDao.getByAccount [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-09-05 08:33:09,055 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.common.persistence.dao.DeptMapper.selectById [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT id AS id,num,pid,pids,simplename,fullname,tips,version FROM dept WHERE id=? 
+2019-09-05 08:33:09,060 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.common.persistence.dao.DeptMapper.selectById [BaseJdbcLogger.java : 159] ==> Parameters: 27(Long)
+2019-09-05 08:33:09,067 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.common.persistence.dao.DeptMapper.selectById [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-09-05 08:33:09,222 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.common.persistence.dao.RoleMapper.selectById [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT id AS id,num,pid,`name`,deptid,tips,version FROM role WHERE id=? 
+2019-09-05 08:33:09,224 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.common.persistence.dao.RoleMapper.selectById [BaseJdbcLogger.java : 159] ==> Parameters: 1(Long)
+2019-09-05 08:33:09,237 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.common.persistence.dao.RoleMapper.selectById [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-09-05 08:33:09,463 [DEBUG] [pool-4-thread-1] cn.ibdsr.web.common.persistence.dao.LoginLogMapper.insert [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO login_log ( logname, userid, createtime, succeed, ip ) VALUES ( ?, ?, ?, ?, ? ) 
+2019-09-05 08:33:09,470 [DEBUG] [pool-4-thread-1] cn.ibdsr.web.common.persistence.dao.LoginLogMapper.insert [BaseJdbcLogger.java : 159] ==> Parameters: 登录日志(String), 1(Long), 2019-09-05 08:33:09.364(Timestamp), 成功(String), 127.0.0.1(String)
+2019-09-05 08:33:09,475 [DEBUG] [pool-4-thread-1] cn.ibdsr.web.common.persistence.dao.LoginLogMapper.insert [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-09-05 08:33:09,703 [DEBUG] [http-nio-80-exec-10] cn.ibdsr.web.modular.system.dao.MenuDao.getMenusByRoleIds [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT m1.id AS id, m1.icon AS icon, ( CASE WHEN (m2.id = 0 OR m2.id IS NULL) THEN 0 ELSE m2.id END ) AS parentId, m1.NAME as name, m1.url as url, m1.levels as levels, m1.ismenu as ismenu, m1.num as num FROM menu m1 LEFT JOIN menu m2 ON m1.pcode = m2. CODE INNER JOIN ( SELECT ID FROM menu WHERE ID IN ( SELECT menuid FROM relation rela WHERE rela.roleid IN ( ? ) ) ) m3 ON m1.id = m3.id where m1.ismenu = 1 order by levels,num asc 
+2019-09-05 08:33:09,721 [DEBUG] [http-nio-80-exec-10] cn.ibdsr.web.modular.system.dao.MenuDao.getMenusByRoleIds [BaseJdbcLogger.java : 159] ==> Parameters: 1(Long)
+2019-09-05 08:33:09,733 [DEBUG] [http-nio-80-exec-10] cn.ibdsr.web.modular.system.dao.MenuDao.getMenusByRoleIds [BaseJdbcLogger.java : 159] <==      Total: 12
+2019-09-05 08:33:09,739 [DEBUG] [http-nio-80-exec-10] cn.ibdsr.web.common.persistence.dao.UserMapper.selectById [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT id AS id,avatar,account,`password`,salt,`name`,birthday,sex,email,phone,roleid,deptid,`status`,createtime,version FROM user WHERE id=? 
+2019-09-05 08:33:09,742 [DEBUG] [http-nio-80-exec-10] cn.ibdsr.web.common.persistence.dao.UserMapper.selectById [BaseJdbcLogger.java : 159] ==> Parameters: 1(Long)
+2019-09-05 08:33:09,745 [DEBUG] [http-nio-80-exec-10] cn.ibdsr.web.common.persistence.dao.UserMapper.selectById [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-09-05 08:33:10,133 [DEBUG] [http-nio-80-exec-6] cn.ibdsr.web.modular.system.dao.NoticeDao.list [BaseJdbcLogger.java : 159] ==>  Preparing: select * from notice order by createtime DESC 
+2019-09-05 08:33:10,135 [DEBUG] [http-nio-80-exec-6] cn.ibdsr.web.modular.system.dao.NoticeDao.list [BaseJdbcLogger.java : 159] ==> Parameters: 
+2019-09-05 08:33:10,149 [DEBUG] [http-nio-80-exec-6] cn.ibdsr.web.modular.system.dao.NoticeDao.list [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-09-05 08:33:13,043 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.modular.software.dao.SoftwareDao.getProjectName [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT id, name FROM project WHERE is_deleted = 0 order by sequence 
+2019-09-05 08:33:13,045 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.modular.software.dao.SoftwareDao.getProjectName [BaseJdbcLogger.java : 159] ==> Parameters: 
+2019-09-05 08:33:13,057 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.modular.software.dao.SoftwareDao.getProjectName [BaseJdbcLogger.java : 159] <==      Total: 34
+2019-09-05 08:33:13,311 [DEBUG] [http-nio-80-exec-3] cn.ibdsr.web.modular.software.dao.SoftwareDao.list [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT id, code, name, type, description, sequence, app_name, package_name, version_no, size, filename, is_force, DATE_FORMAT(created_time, '%Y-%m-%d %H:%i:%S') createdTime FROM software where is_deleted = 0 AND software.project_id =? order by sequence 
+2019-09-05 08:33:13,318 [DEBUG] [http-nio-80-exec-3] cn.ibdsr.web.modular.software.dao.SoftwareDao.list [BaseJdbcLogger.java : 159] ==> Parameters: 42(Long)
+2019-09-05 08:33:13,331 [DEBUG] [http-nio-80-exec-3] cn.ibdsr.web.modular.software.dao.SoftwareDao.list [BaseJdbcLogger.java : 159] <==      Total: 2
+2019-09-05 08:35:09,565 [DEBUG] [http-nio-80-exec-7] c.ibdsr.web.common.persistence.dao.SoftwareMapper.selectById [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT id AS id,project_id AS projectId,code,`name`,`type`,description,`sequence`,app_name AS appName,filename,package_name AS packageName,version_no AS versionNo,`size`,url,is_force AS isForce,created_time AS createdTime,modified_time AS modifiedTime,created_user AS createdUser,modified_user AS modifiedUser,is_deleted AS isDeleted FROM software WHERE id=? 
+2019-09-05 08:35:09,656 [DEBUG] [http-nio-80-exec-7] c.ibdsr.web.common.persistence.dao.SoftwareMapper.selectById [BaseJdbcLogger.java : 159] ==> Parameters: 56(Long)
+2019-09-05 08:35:09,681 [DEBUG] [http-nio-80-exec-7] c.ibdsr.web.common.persistence.dao.SoftwareMapper.selectById [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-09-05 08:35:09,733 [DEBUG] [pool-4-thread-1] c.ibdsr.web.common.persistence.dao.OperationLogMapper.insert [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO operation_log ( logtype, logname, userid, createtime, succeed, message ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+2019-09-05 08:35:09,737 [DEBUG] [pool-4-thread-1] c.ibdsr.web.common.persistence.dao.OperationLogMapper.insert [BaseJdbcLogger.java : 159] ==> Parameters: 异常日志(String), (String), 1(Long), 2019-09-05 08:35:09.724(Timestamp), 失败(String), cn.ibdsr.web.common.exception.BussinessException: 文件类型与软件类型不匹配
+	at cn.ibdsr.web.modular.versionrecord.service.impl.VersionRecordServiceImpl.checkFile(VersionRecordServiceImpl.java:128)
+	at cn.ibdsr.web.modular.versionrecord.service.impl.VersionRecordServiceImpl.analyse(VersionRecordServiceImpl.java:82)
+	at cn.ibdsr.web.modular.versionrecord.service.impl.VersionRecordServiceImplTTFastClassBySpringCGLIBTT6750eb77.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxyTCglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxyTDynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at cn.ibdsr.web.modular.versionrecord.service.impl.VersionRecordServiceImplTTEnhancerBySpringCGLIBTT8246392d.analyse(<generated>)
+	at cn.ibdsr.web.modular.versionrecord.controller.VersionRecordController.analyse(VersionRecordController.java:69)
+	at cn.ibdsr.web.modular.versionrecord.controller.VersionRecordControllerTTFastClassBySpringCGLIBTT25b269bd.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxyTCglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:85)
+	at cn.ibdsr.web.core.intercept.SessionInterceptor.sessionKit(SessionInterceptor.java:30)
+	at sun.reflect.GeneratedMethodAccessor499.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxyTDynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at cn.ibdsr.web.modular.versionrecord.controller.VersionRecordControllerTTEnhancerBySpringCGLIBTT8d5d8e76.analyse(<generated>)
+	at sun.reflect.GeneratedMethodAccessor590.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilterT1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at cn.ibdsr.web.core.filter.CorsFilter.doFilterInternal(CorsFilter.java:28)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at cn.ibdsr.core.xss.XssFilter.doFilter(XssFilter.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocolTConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpointTSocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutorTWorker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThreadTWrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+(String)
+2019-09-05 08:35:09,745 [DEBUG] [pool-4-thread-1] c.ibdsr.web.common.persistence.dao.OperationLogMapper.insert [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-09-05 08:35:09,747 [ERROR] [http-nio-80-exec-7] cn.ibdsr.web.core.aop.GlobalExceptionHandler [GlobalExceptionHandler.java : 56] 业务异常:
+cn.ibdsr.web.common.exception.BussinessException: 文件类型与软件类型不匹配
+	at cn.ibdsr.web.modular.versionrecord.service.impl.VersionRecordServiceImpl.checkFile(VersionRecordServiceImpl.java:128)
+	at cn.ibdsr.web.modular.versionrecord.service.impl.VersionRecordServiceImpl.analyse(VersionRecordServiceImpl.java:82)
+	at cn.ibdsr.web.modular.versionrecord.service.impl.VersionRecordServiceImpl$$FastClassBySpringCGLIB$$6750eb77.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at cn.ibdsr.web.modular.versionrecord.service.impl.VersionRecordServiceImpl$$EnhancerBySpringCGLIB$$8246392d.analyse(<generated>)
+	at cn.ibdsr.web.modular.versionrecord.controller.VersionRecordController.analyse(VersionRecordController.java:69)
+	at cn.ibdsr.web.modular.versionrecord.controller.VersionRecordController$$FastClassBySpringCGLIB$$25b269bd.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:85)
+	at cn.ibdsr.web.core.intercept.SessionInterceptor.sessionKit(SessionInterceptor.java:30)
+	at sun.reflect.GeneratedMethodAccessor499.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at cn.ibdsr.web.modular.versionrecord.controller.VersionRecordController$$EnhancerBySpringCGLIB$$8d5d8e76.analyse(<generated>)
+	at sun.reflect.GeneratedMethodAccessor590.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at cn.ibdsr.web.core.filter.CorsFilter.doFilterInternal(CorsFilter.java:28)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at cn.ibdsr.core.xss.XssFilter.doFilter(XssFilter.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-05 08:35:09,766 [WARN] [http-nio-80-exec-7] o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java : 189] Resolved exception caused by Handler execution: cn.ibdsr.web.common.exception.BussinessException: 文件类型与软件类型不匹配
+2019-09-05 08:48:00,662 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 08:48:00,704 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 09:03:00,662 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 09:03:00,686 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 09:18:00,650 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 09:18:00,718 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  [1] sessions were stopped.
+2019-09-05 09:33:00,646 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 09:33:00,665 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 09:48:00,643 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 09:48:00,658 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 10:03:00,645 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 10:03:00,658 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 10:18:00,642 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 10:18:00,684 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 10:33:00,638 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 10:33:00,652 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 10:48:00,631 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 10:48:00,669 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 11:03:00,627 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 11:03:00,643 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 11:18:00,623 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 11:18:00,643 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 11:33:00,623 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 11:33:00,640 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 11:48:00,623 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 11:48:00,637 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 12:03:00,616 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 12:03:00,657 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 12:18:00,613 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 12:18:00,629 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 12:33:00,599 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 12:33:00,600 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 12:48:00,603 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 12:48:00,621 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 13:03:00,594 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 13:03:00,631 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 13:18:00,589 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 13:18:00,624 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 13:33:00,592 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 13:33:00,634 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 13:48:00,585 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 13:48:00,625 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 14:03:00,583 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 14:03:00,623 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 14:18:00,571 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 14:18:00,588 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 14:33:00,566 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 14:33:00,586 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 14:48:00,561 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 14:48:00,575 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 15:03:00,562 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 15:03:00,584 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 15:09:41,037 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.modular.system.dao.UserMgrDao.getByAccount [BaseJdbcLogger.java : 159] ==>  Preparing: select id, account, name, birthday,password, sex, email, avatar, phone, roleid,salt, deptid, status, createtime, version from user where account = ? and status != 3 
+2019-09-05 15:09:41,050 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.modular.system.dao.UserMgrDao.getByAccount [BaseJdbcLogger.java : 159] ==> Parameters: admin(String)
+2019-09-05 15:09:41,054 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.modular.system.dao.UserMgrDao.getByAccount [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-09-05 15:09:41,062 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.common.persistence.dao.DeptMapper.selectById [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT id AS id,num,pid,pids,simplename,fullname,tips,version FROM dept WHERE id=? 
+2019-09-05 15:09:41,063 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.common.persistence.dao.DeptMapper.selectById [BaseJdbcLogger.java : 159] ==> Parameters: 27(Long)
+2019-09-05 15:09:41,066 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.common.persistence.dao.DeptMapper.selectById [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-09-05 15:09:41,068 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.common.persistence.dao.RoleMapper.selectById [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT id AS id,num,pid,`name`,deptid,tips,version FROM role WHERE id=? 
+2019-09-05 15:09:41,070 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.common.persistence.dao.RoleMapper.selectById [BaseJdbcLogger.java : 159] ==> Parameters: 1(Long)
+2019-09-05 15:09:41,073 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.common.persistence.dao.RoleMapper.selectById [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-09-05 15:09:41,096 [DEBUG] [pool-4-thread-2] cn.ibdsr.web.common.persistence.dao.LoginLogMapper.insert [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO login_log ( logname, userid, createtime, succeed, ip ) VALUES ( ?, ?, ?, ?, ? ) 
+2019-09-05 15:09:41,105 [DEBUG] [pool-4-thread-2] cn.ibdsr.web.common.persistence.dao.LoginLogMapper.insert [BaseJdbcLogger.java : 159] ==> Parameters: 登录日志(String), 1(Long), 2019-09-05 15:09:41.093(Timestamp), 成功(String), 127.0.0.1(String)
+2019-09-05 15:09:41,111 [DEBUG] [pool-4-thread-2] cn.ibdsr.web.common.persistence.dao.LoginLogMapper.insert [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-09-05 15:09:41,113 [DEBUG] [http-nio-80-exec-7] cn.ibdsr.web.modular.system.dao.MenuDao.getMenusByRoleIds [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT m1.id AS id, m1.icon AS icon, ( CASE WHEN (m2.id = 0 OR m2.id IS NULL) THEN 0 ELSE m2.id END ) AS parentId, m1.NAME as name, m1.url as url, m1.levels as levels, m1.ismenu as ismenu, m1.num as num FROM menu m1 LEFT JOIN menu m2 ON m1.pcode = m2. CODE INNER JOIN ( SELECT ID FROM menu WHERE ID IN ( SELECT menuid FROM relation rela WHERE rela.roleid IN ( ? ) ) ) m3 ON m1.id = m3.id where m1.ismenu = 1 order by levels,num asc 
+2019-09-05 15:09:41,116 [DEBUG] [http-nio-80-exec-7] cn.ibdsr.web.modular.system.dao.MenuDao.getMenusByRoleIds [BaseJdbcLogger.java : 159] ==> Parameters: 1(Long)
+2019-09-05 15:09:41,123 [DEBUG] [http-nio-80-exec-7] cn.ibdsr.web.modular.system.dao.MenuDao.getMenusByRoleIds [BaseJdbcLogger.java : 159] <==      Total: 12
+2019-09-05 15:09:41,126 [DEBUG] [http-nio-80-exec-7] cn.ibdsr.web.common.persistence.dao.UserMapper.selectById [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT id AS id,avatar,account,`password`,salt,`name`,birthday,sex,email,phone,roleid,deptid,`status`,createtime,version FROM user WHERE id=? 
+2019-09-05 15:09:41,127 [DEBUG] [http-nio-80-exec-7] cn.ibdsr.web.common.persistence.dao.UserMapper.selectById [BaseJdbcLogger.java : 159] ==> Parameters: 1(Long)
+2019-09-05 15:09:41,130 [DEBUG] [http-nio-80-exec-7] cn.ibdsr.web.common.persistence.dao.UserMapper.selectById [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-09-05 15:09:41,222 [DEBUG] [http-nio-80-exec-6] cn.ibdsr.web.modular.system.dao.NoticeDao.list [BaseJdbcLogger.java : 159] ==>  Preparing: select * from notice order by createtime DESC 
+2019-09-05 15:09:41,224 [DEBUG] [http-nio-80-exec-6] cn.ibdsr.web.modular.system.dao.NoticeDao.list [BaseJdbcLogger.java : 159] ==> Parameters: 
+2019-09-05 15:09:41,227 [DEBUG] [http-nio-80-exec-6] cn.ibdsr.web.modular.system.dao.NoticeDao.list [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-09-05 15:09:43,420 [DEBUG] [http-nio-80-exec-6] cn.ibdsr.web.modular.software.dao.SoftwareDao.getProjectName [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT id, name FROM project WHERE is_deleted = 0 order by sequence 
+2019-09-05 15:09:43,421 [DEBUG] [http-nio-80-exec-6] cn.ibdsr.web.modular.software.dao.SoftwareDao.getProjectName [BaseJdbcLogger.java : 159] ==> Parameters: 
+2019-09-05 15:09:43,425 [DEBUG] [http-nio-80-exec-6] cn.ibdsr.web.modular.software.dao.SoftwareDao.getProjectName [BaseJdbcLogger.java : 159] <==      Total: 34
+2019-09-05 15:09:43,459 [DEBUG] [http-nio-80-exec-5] cn.ibdsr.web.modular.software.dao.SoftwareDao.list [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT id, code, name, type, description, sequence, app_name, package_name, version_no, size, filename, is_force, DATE_FORMAT(created_time, '%Y-%m-%d %H:%i:%S') createdTime FROM software where is_deleted = 0 AND software.project_id =? order by sequence 
+2019-09-05 15:09:43,461 [DEBUG] [http-nio-80-exec-5] cn.ibdsr.web.modular.software.dao.SoftwareDao.list [BaseJdbcLogger.java : 159] ==> Parameters: 42(Long)
+2019-09-05 15:09:43,465 [DEBUG] [http-nio-80-exec-5] cn.ibdsr.web.modular.software.dao.SoftwareDao.list [BaseJdbcLogger.java : 159] <==      Total: 2
+2019-09-05 15:12:41,156 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.modular.system.dao.MenuDao.getMenusByRoleIds [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT m1.id AS id, m1.icon AS icon, ( CASE WHEN (m2.id = 0 OR m2.id IS NULL) THEN 0 ELSE m2.id END ) AS parentId, m1.NAME as name, m1.url as url, m1.levels as levels, m1.ismenu as ismenu, m1.num as num FROM menu m1 LEFT JOIN menu m2 ON m1.pcode = m2. CODE INNER JOIN ( SELECT ID FROM menu WHERE ID IN ( SELECT menuid FROM relation rela WHERE rela.roleid IN ( ? ) ) ) m3 ON m1.id = m3.id where m1.ismenu = 1 order by levels,num asc 
+2019-09-05 15:12:41,179 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.modular.system.dao.MenuDao.getMenusByRoleIds [BaseJdbcLogger.java : 159] ==> Parameters: 1(Long)
+2019-09-05 15:12:41,187 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.modular.system.dao.MenuDao.getMenusByRoleIds [BaseJdbcLogger.java : 159] <==      Total: 12
+2019-09-05 15:12:41,190 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.common.persistence.dao.UserMapper.selectById [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT id AS id,avatar,account,`password`,salt,`name`,birthday,sex,email,phone,roleid,deptid,`status`,createtime,version FROM user WHERE id=? 
+2019-09-05 15:12:41,191 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.common.persistence.dao.UserMapper.selectById [BaseJdbcLogger.java : 159] ==> Parameters: 1(Long)
+2019-09-05 15:12:41,193 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.common.persistence.dao.UserMapper.selectById [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-09-05 15:12:41,340 [DEBUG] [http-nio-80-exec-1] cn.ibdsr.web.modular.system.dao.NoticeDao.list [BaseJdbcLogger.java : 159] ==>  Preparing: select * from notice order by createtime DESC 
+2019-09-05 15:12:41,342 [DEBUG] [http-nio-80-exec-1] cn.ibdsr.web.modular.system.dao.NoticeDao.list [BaseJdbcLogger.java : 159] ==> Parameters: 
+2019-09-05 15:12:41,366 [DEBUG] [http-nio-80-exec-1] cn.ibdsr.web.modular.system.dao.NoticeDao.list [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-09-05 15:12:42,935 [DEBUG] [http-nio-80-exec-6] cn.ibdsr.web.modular.software.dao.SoftwareDao.getProjectName [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT id, name FROM project WHERE is_deleted = 0 order by sequence 
+2019-09-05 15:12:42,936 [DEBUG] [http-nio-80-exec-6] cn.ibdsr.web.modular.software.dao.SoftwareDao.getProjectName [BaseJdbcLogger.java : 159] ==> Parameters: 
+2019-09-05 15:12:42,940 [DEBUG] [http-nio-80-exec-6] cn.ibdsr.web.modular.software.dao.SoftwareDao.getProjectName [BaseJdbcLogger.java : 159] <==      Total: 34
+2019-09-05 15:12:42,973 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.modular.software.dao.SoftwareDao.list [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT id, code, name, type, description, sequence, app_name, package_name, version_no, size, filename, is_force, DATE_FORMAT(created_time, '%Y-%m-%d %H:%i:%S') createdTime FROM software where is_deleted = 0 AND software.project_id =? order by sequence 
+2019-09-05 15:12:42,974 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.modular.software.dao.SoftwareDao.list [BaseJdbcLogger.java : 159] ==> Parameters: 42(Long)
+2019-09-05 15:12:42,977 [DEBUG] [http-nio-80-exec-9] cn.ibdsr.web.modular.software.dao.SoftwareDao.list [BaseJdbcLogger.java : 159] <==      Total: 2
+2019-09-05 15:14:10,082 [DEBUG] [http-nio-80-exec-8] c.ibdsr.web.common.persistence.dao.SoftwareMapper.selectById [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT id AS id,project_id AS projectId,code,`name`,`type`,description,`sequence`,app_name AS appName,filename,package_name AS packageName,version_no AS versionNo,`size`,url,is_force AS isForce,created_time AS createdTime,modified_time AS modifiedTime,created_user AS createdUser,modified_user AS modifiedUser,is_deleted AS isDeleted FROM software WHERE id=? 
+2019-09-05 15:14:10,095 [DEBUG] [http-nio-80-exec-8] c.ibdsr.web.common.persistence.dao.SoftwareMapper.selectById [BaseJdbcLogger.java : 159] ==> Parameters: 58(Long)
+2019-09-05 15:14:10,098 [DEBUG] [http-nio-80-exec-8] c.ibdsr.web.common.persistence.dao.SoftwareMapper.selectById [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-09-05 15:14:22,722 [DEBUG] [http-nio-80-exec-2] c.ibdsr.web.common.persistence.dao.SoftwareMapper.selectList [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT id AS id,project_id AS projectId,code,`name`,`type`,description,`sequence`,app_name AS appName,filename,package_name AS packageName,version_no AS versionNo,`size`,url,is_force AS isForce,created_time AS createdTime,modified_time AS modifiedTime,created_user AS createdUser,modified_user AS modifiedUser,is_deleted AS isDeleted FROM software WHERE (id = ? AND id = ? AND id = ? AND id = ? AND id = ? AND id = ? AND id = ? AND id = ? AND id = ? AND id = ? AND id = ? AND id = ? AND id = ? AND id = ? AND id = ? AND id = ? AND id = ? AND id = ? AND id = ? AND id = ? AND is_deleted = ?) 
+2019-09-05 15:14:22,729 [DEBUG] [http-nio-80-exec-2] c.ibdsr.web.common.persistence.dao.SoftwareMapper.selectList [BaseJdbcLogger.java : 159] ==> Parameters: 58(Long), 58(Long), 58(Long), 58(Long), 58(Long), 58(Long), 58(Long), 58(Long), 58(Long), 58(Long), 58(Long), 58(Long), 58(Long), 58(Long), 58(Long), 58(Long), 58(Long), 58(Long), 58(Long), 58(Long), 0(Integer)
+2019-09-05 15:14:22,732 [DEBUG] [http-nio-80-exec-2] c.ibdsr.web.common.persistence.dao.SoftwareMapper.selectList [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-09-05 15:14:22,734 [DEBUG] [http-nio-80-exec-2] c.ibdsr.web.common.persistence.dao.SoftwareMapper.selectById [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT id AS id,project_id AS projectId,code,`name`,`type`,description,`sequence`,app_name AS appName,filename,package_name AS packageName,version_no AS versionNo,`size`,url,is_force AS isForce,created_time AS createdTime,modified_time AS modifiedTime,created_user AS createdUser,modified_user AS modifiedUser,is_deleted AS isDeleted FROM software WHERE id=? 
+2019-09-05 15:14:22,735 [DEBUG] [http-nio-80-exec-2] c.ibdsr.web.common.persistence.dao.SoftwareMapper.selectById [BaseJdbcLogger.java : 159] ==> Parameters: 58(Long)
+2019-09-05 15:14:22,737 [DEBUG] [http-nio-80-exec-2] c.ibdsr.web.common.persistence.dao.SoftwareMapper.selectById [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-09-05 15:14:22,747 [ERROR] [http-nio-80-exec-2] cn.ibdsr.web.core.aop.GlobalExceptionHandler [GlobalExceptionHandler.java : 56] 业务异常:
+cn.ibdsr.web.common.exception.BussinessException: 不同应用的安装包不能上传
+	at cn.ibdsr.web.modular.versionrecord.service.impl.VersionRecordServiceImpl.checkVersionRecordDTO(VersionRecordServiceImpl.java:188)
+	at cn.ibdsr.web.modular.versionrecord.service.impl.VersionRecordServiceImpl.checkInsert(VersionRecordServiceImpl.java:154)
+	at cn.ibdsr.web.modular.versionrecord.service.impl.VersionRecordServiceImpl.checkInsert(VersionRecordServiceImpl.java:45)
+	at cn.ibdsr.core.base.service.impl.AbstractBaseService.check(AbstractBaseService.java:121)
+	at cn.ibdsr.core.base.service.impl.AbstractBaseService.insert(AbstractBaseService.java:58)
+	at cn.ibdsr.core.base.service.impl.AbstractBaseService$$FastClassBySpringCGLIB$$ee23bf42.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at cn.ibdsr.web.modular.versionrecord.service.impl.VersionRecordServiceImpl$$EnhancerBySpringCGLIB$$8246392d.insert(<generated>)
+	at cn.ibdsr.web.modular.versionrecord.controller.VersionRecordController.add(VersionRecordController.java:78)
+	at cn.ibdsr.web.modular.versionrecord.controller.VersionRecordController$$FastClassBySpringCGLIB$$25b269bd.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:85)
+	at cn.ibdsr.web.core.intercept.SessionInterceptor.sessionKit(SessionInterceptor.java:30)
+	at sun.reflect.GeneratedMethodAccessor499.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at cn.ibdsr.web.modular.versionrecord.controller.VersionRecordController$$EnhancerBySpringCGLIB$$8d5d8e76.add(<generated>)
+	at sun.reflect.GeneratedMethodAccessor654.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at cn.ibdsr.web.core.filter.CorsFilter.doFilterInternal(CorsFilter.java:28)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at cn.ibdsr.core.xss.XssFilter.doFilter(XssFilter.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-09-05 15:14:22,748 [WARN] [http-nio-80-exec-2] o.s.w.s.m.m.annotation.ExceptionHandlerExceptionResolver [AbstractHandlerExceptionResolver.java : 189] Resolved exception caused by Handler execution: cn.ibdsr.web.common.exception.BussinessException: 不同应用的安装包不能上传
+2019-09-05 15:14:22,758 [DEBUG] [pool-4-thread-1] c.ibdsr.web.common.persistence.dao.OperationLogMapper.insert [BaseJdbcLogger.java : 159] ==>  Preparing: INSERT INTO operation_log ( logtype, logname, userid, createtime, succeed, message ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+2019-09-05 15:14:22,760 [DEBUG] [pool-4-thread-1] c.ibdsr.web.common.persistence.dao.OperationLogMapper.insert [BaseJdbcLogger.java : 159] ==> Parameters: 异常日志(String), (String), 1(Long), 2019-09-05 15:14:22.757(Timestamp), 失败(String), cn.ibdsr.web.common.exception.BussinessException: 不同应用的安装包不能上传
+	at cn.ibdsr.web.modular.versionrecord.service.impl.VersionRecordServiceImpl.checkVersionRecordDTO(VersionRecordServiceImpl.java:188)
+	at cn.ibdsr.web.modular.versionrecord.service.impl.VersionRecordServiceImpl.checkInsert(VersionRecordServiceImpl.java:154)
+	at cn.ibdsr.web.modular.versionrecord.service.impl.VersionRecordServiceImpl.checkInsert(VersionRecordServiceImpl.java:45)
+	at cn.ibdsr.core.base.service.impl.AbstractBaseService.check(AbstractBaseService.java:121)
+	at cn.ibdsr.core.base.service.impl.AbstractBaseService.insert(AbstractBaseService.java:58)
+	at cn.ibdsr.core.base.service.impl.AbstractBaseServiceTTFastClassBySpringCGLIBTTee23bf42.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxyTCglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at com.alibaba.druid.support.spring.stat.DruidStatInterceptor.invoke(DruidStatInterceptor.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxyTDynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at cn.ibdsr.web.modular.versionrecord.service.impl.VersionRecordServiceImplTTEnhancerBySpringCGLIBTT8246392d.insert(<generated>)
+	at cn.ibdsr.web.modular.versionrecord.controller.VersionRecordController.add(VersionRecordController.java:78)
+	at cn.ibdsr.web.modular.versionrecord.controller.VersionRecordControllerTTFastClassBySpringCGLIBTT25b269bd.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxyTCglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:85)
+	at cn.ibdsr.web.core.intercept.SessionInterceptor.sessionKit(SessionInterceptor.java:30)
+	at sun.reflect.GeneratedMethodAccessor499.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:629)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:618)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxyTDynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at cn.ibdsr.web.modular.versionrecord.controller.VersionRecordControllerTTEnhancerBySpringCGLIBTT8d5d8e76.add(<generated>)
+	at sun.reflect.GeneratedMethodAccessor654.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilterT1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at cn.ibdsr.web.core.filter.CorsFilter.doFilterInternal(CorsFilter.java:28)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at cn.ibdsr.core.xss.XssFilter.doFilter(XssFilter.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.__invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocolTConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpointTSocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutorTWorker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThreadTWrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+(String)
+2019-09-05 15:14:22,768 [DEBUG] [pool-4-thread-1] c.ibdsr.web.common.persistence.dao.OperationLogMapper.insert [BaseJdbcLogger.java : 159] <==    Updates: 1
+2019-09-05 15:15:04,413 [DEBUG] [http-nio-80-exec-10] c.ibdsr.web.common.persistence.dao.SoftwareMapper.selectById [BaseJdbcLogger.java : 159] ==>  Preparing: SELECT id AS id,project_id AS projectId,code,`name`,`type`,description,`sequence`,app_name AS appName,filename,package_name AS packageName,version_no AS versionNo,`size`,url,is_force AS isForce,created_time AS createdTime,modified_time AS modifiedTime,created_user AS createdUser,modified_user AS modifiedUser,is_deleted AS isDeleted FROM software WHERE id=? 
+2019-09-05 15:15:04,429 [DEBUG] [http-nio-80-exec-10] c.ibdsr.web.common.persistence.dao.SoftwareMapper.selectById [BaseJdbcLogger.java : 159] ==> Parameters: 58(Long)
+2019-09-05 15:15:04,432 [DEBUG] [http-nio-80-exec-10] c.ibdsr.web.common.persistence.dao.SoftwareMapper.selectById [BaseJdbcLogger.java : 159] <==      Total: 1
+2019-09-05 15:18:00,554 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 15:18:00,569 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 15:33:00,554 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 15:33:00,571 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 15:48:00,550 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 15:48:00,601 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  [1] sessions were stopped.
+2019-09-05 16:03:00,543 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 275] Validating all active sessions...
+2019-09-05 16:03:00,560 [INFO] [SessionValidationThread-1] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 308] Finished session validation.  No sessions were stopped.
+2019-09-05 16:09:16,453 [INFO] [Thread-26] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java : 987] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3f41a1f3: startup date [Thu Sep 05 08:32:08 CST 2019]; root of context hierarchy
+2019-09-05 16:09:16,572 [INFO] [Thread-26] o.s.jmx.export.annotation.AnnotationMBeanExporter [MBeanExporter.java : 449] Unregistering JMX-exposed beans on shutdown
+2019-09-05 16:09:16,606 [INFO] [Thread-26] com.alibaba.druid.pool.DruidDataSource [DruidDataSource.java : 1514] {dataSource-1} closed
+2019-09-05 16:09:16,631 [INFO] [Thread-26] o.apache.shiro.session.mgt.AbstractValidatingSessionManager [AbstractValidatingSessionManager.java : 250] Disabled session validation scheduler.
+2019-09-05 16:09:16,632 [INFO] [Thread-26] org.springframework.cache.ehcache.EhCacheManagerFactoryBean [EhCacheManagerFactoryBean.java : 187] Shutting down EhCache CacheManager

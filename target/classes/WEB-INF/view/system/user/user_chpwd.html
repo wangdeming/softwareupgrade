@@ -1,0 +1,54 @@
+@layout("/common/_container.html"){
+<div class="ibox float-e-margins" id="insertSubAccountForm">
+    <div class="ibox-content">
+        <div class="form-horizontal">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">账号：</label>
+                        <div class="col-sm-9">
+                            <input class="form-control" type="text" id="accountName" value="" disabled="disabled">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12" style="margin-top: 10px;">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">* 原密码：</label>
+                        <div class="col-sm-9">
+                            <input class="form-control" type="text" id="oldPwd" name="oldPwd" placeholder="请输入原密码">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12" style="margin-top: 10px;">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">* 新密码：</label>
+                        <div class="col-sm-9">
+                            <input class="form-control" type="text" id="password" name="password" placeholder="请输入新密码">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12" style="margin-top: 10px;">
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">* 确认密码：</label>
+                        <div class="col-sm-9">
+                            <input class="form-control" type="text" id="rePassword" name="rePassword" placeholder="请再次输入新密码">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row btn-group-m-t">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-9">
+                    <button type="button" class="btn btn-danger-xb" onclick="closeLayer();" style="width: 120px;height: 34px;color: #FFFFFF;margin-right: 20px;">
+                        关闭
+                    </button>
+                    <button type="button" class="btn btn-primary" onclick="submitEditPwd();" style="width: 120px;height: 34px;color: #FFFFFF;">
+                        保存
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="${ctxPath}/static/modular/system/user/user_chpwd.js"></script>
+@}

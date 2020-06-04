@@ -1,0 +1,43 @@
+@layout("/common/_container.html"){
+<style>
+    .fixed-table-toolbar {
+        display: none;
+    }
+    .fixed-table-header{border-bottom: 0px!important;display:none!important;}
+    #VersionRecordTable{margin-top:0px!important;}
+</style>
+<div class="row">
+    <div class="col-sm-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>
+                    <a onclick="goToProject()" style="text-decoration: underline;margin-right: 5px;">项目列表</a>
+                    <span style="margin-right: 5px;">&gt</span>
+                    <a onclick="goToSoftware()" style="text-decoration: underline;margin-right: 5px;">软件管理</a>
+                    <span style="margin-right: 5px;">&gt</span>
+                    版本记录
+                </h5>
+            </div>
+            <div class="ibox-content">
+                <div class="row row-lg">
+                    <div class="col-sm-12">
+                        <div class="row" style="margin-bottom: 20px;">
+                            <div class="col-sm-6 form-inline">
+                                <span style="margin-right: 5px;">软件名称：</span>
+                                <span id="softwareName"></span>
+                            </div>
+                            <div class="col-sm-6 form-inline">
+                                <button type="button" class="btn btn-primary " onclick="VersionRecord.openUploadPackage()" style="float: right;">
+                                    <i class="fa fa-plus"></i>&nbsp;上传安装包
+                                </button>
+                            </div>
+                        </div>
+                        <#table id="VersionRecordTable"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="${ctxPath}/static/modular/versionrecord/versionrecord/versionRecord.js"></script>
+@}

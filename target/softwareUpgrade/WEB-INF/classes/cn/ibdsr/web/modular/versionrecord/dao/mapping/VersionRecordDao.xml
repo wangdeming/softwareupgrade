@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.ibdsr.web.modular.versionrecord.dao.VersionRecordDao">
+    <select id="list" resultType="com.alibaba.fastjson.JSONObject">
+        SELECT app_name appName,
+        package_name packageName,
+        version_no versionNo,
+        size,
+        DATE_FORMAT(created_time, '%Y.%m.%d %H:%i:%s') uploadTime,
+        url,
+        is_force isForce
+        FROM upload_version_record
+        WHERE 1 = 1
+        <if test="softwareId != null">
+            AND software_id = #{softwareId}
+        </if>
+        AND is_deleted = 0
+        ORDER BY created_time DESC
+    </select>
+</mapper>
